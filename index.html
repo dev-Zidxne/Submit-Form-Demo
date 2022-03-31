@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form >
+<fieldset>    <legend><span>1</span> Your Details</legend>
+
+
+<label>
+    <input type="text" placeholder="Name" required autofocus>
+</label> 
+<label>
+    <input type="email" placeholder="Email" required autofocus>
+</label> 
+</fieldset>
+<!-- destination & departaure -->
+<fieldset>
+    <legend>
+        <span>2</span>Destination & Departure
+    </legend>
+
+
+
+<label for="departure">Departure: </label>
+<input id="departure" type="date">
+<label for="return"> Return:</label>
+<input id="return" type="date"> 
+
+
+<label for="leaving">
+    Leaving From:  </label>
+<select name="leaving" id="">
+    <option value="Opt1">London</option>
+    <option value="Opt1">Paris</option>
+    <option value="Opt1">Russia</option>
+</select>
+
+<label for="destination"> 
+    Going To:</label>
+<select name="destination" id="">
+    <option value="Opt1">London</option>
+    <option value="Opt1">Paris</option>
+    <option value="Opt1">Russia</option>
+</select>
+</fieldset>
+
+<!-- 
+    feedback
+ -->
+<fieldset>
+ 
+<fieldset>
+    <legend><span>1</span>Feedback</legend>
+<label for="feedback">How did your hear about us?</label>
+<select name="selection" id="">
+    <option value="Opt1">Instagram</option>
+    <option value="Opt1">Twitter</option>
+    <option value="Opt1">Google</option>
+</select>
+<p>Would you use our service again?</p>
+<label for="radio-yes">Yes</label><input name="choose" type="radio">
+</labe>
+<label for="radio-no">No</label><input name="choose" type="radio">
+<label for="radio-maybe">Maybe</label><input name="choose" type="radio">
+   
+</fieldset>
+
+<label for="textarea">Any comments?</label> <br>
+<textarea id="feedback" id="" cols="40" rows="3"></textarea>
+<br>
+
+<label for="email">Join mailing list?
+   <br> <input type="radio" value="">
+</label>
+
+
+</fieldset>
+<input type="submit" value="Submit">
+
+</form>
+    
+</body>
+</html>
